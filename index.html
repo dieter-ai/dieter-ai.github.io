@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieter Adriaensen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Dieter Adriaensen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav" id="menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#repositories">Repositories</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <section id="home">
+            <div class="text-center">
+                <img src="img/profile.jpg" class="rounded-circle" alt="Dieter Adriaensen">
+                <div class="profile-info mt-3">
+                    <h1>Dieter Adriaensen</h1>
+                    <h3>Antwerp, Belgium</h3>
+                    <p>I'm a tech enthusiast with a background as a Marketing Engineer at Intel, where I dealt with AI, IoT & 5G demos. Working with AI demos at Intel as a Marketing Engineer has sparked my passion for artificial intelligence. In my projects, I focus on leveraging modern technology to solve everyday problems.</p>
+                    <div class="interests mt-3">
+                        <h3>Interests</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item badge badge-secondary">Artificial Intelligence</li>
+                            <li class="list-inline-item badge badge-secondary">IoT</li>
+                            <li class="list-inline-item badge badge-secondary">Data Science</li>
+                            <li class="list-inline-item badge badge-secondary">Machine Learning</li>
+                            <li class="list-inline-item badge badge-secondary">Python Programming</li>
+                            <li class="list-inline-item badge badge-secondary">Computer Vision</li>
+                            <li class="list-inline-item badge badge-secondary">Natural Language Processing</li>
+                            <li class="list-inline-item badge badge-secondary">Web Development</li>
+                            <li class="list-inline-item badge badge-secondary">Geospatial Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="mt-5">
+            <h2 class="text-center">Projects</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="img/OutBox.jpg" class="card-img-top" alt="OutBox">
+                        <div class="card-body">
+                            <h3 class="card-title">OutBox</h3>
+                            <p class="card-text">OutBox is a web application leveraging AI function calls to organize unstructured data. The project includes advanced extraction and processing of HTML content using Python packages such as BeautifulSoup, re, json, pandas, and scipy. It detects and clusters HTML elements containing prices, identifies the largest cluster, and determines the lowest common ancestor and its direct child elements within the identified clusters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="img/SolarSim.jpg" class="card-img-top" alt="SolarSim">
+                        <div class="card-body">
+                            <h3 class="card-title">SolarSim</h3>
+                            <p class="card-text">SolarSim is a Python-based tool that determines sunlight exposure at specific GPS coordinates, considering potential obstructions from buildings or landscapes. It utilizes the Digitaal Hoogtemodel Vlaanderen II (DSM) and a 1-meter resolution raster to calculate sun visibility accurately.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <img src="img/Pochemuchka.jpg" class="card-img-top" alt="Pochemuchka">
+                        <div class="card-body">
+                            <h3 class="card-title">Pochemuchka</h3>
+                            <p class="card-text">Pochemuchka is a Python application that uses open-source language models (LLMs) locally to interpret live webcam or camera feeds. It describes ongoing activities and provides real-time transcriptions (with an option for English translations) of spoken words, enhancing situational awareness and context understanding.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="repositories" class="mt-5">
+            <h2 class="text-center">Repositories</h2>
+            <p class="text-center">Information about interesting repositories goes here.</p>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

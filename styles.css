@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #23252f;
+    color: #f8f8f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+    color: #ccc;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+main {
+    padding-top: 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.profile-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-info h1, .profile-info h3 {
+    margin: 0;
+}
+
+.profile-info p {
+    margin-top: 10px;
+}
+
+.interests h3 {
+    font-weight: 600;
+}
+
+.interests ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #2c2f3a;
+    border: none;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #ddd;
+}
